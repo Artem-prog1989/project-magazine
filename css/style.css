@@ -10,15 +10,12 @@ html {
     height: 100%;
     font-family: Arial;
 }
-
 .container {
     width: 1280px;
     /*border: 1px solid black;*/
     margin: 0 auto;
-
     color: #445161;
 }
-
 .main-header {
     width: 100%;
     min-height: 323px;
@@ -26,25 +23,20 @@ html {
     box-sizing: border-box;
     background-color: #445161;
 }
-
 .main-header-wrapper {
     float: left;
 }
-
 .main-header-title {
     margin: 0;
-    font-family: Arial;
     color: #ffffff;
     font-size: 60px;
     font-weight: 400;
     text-align: left;
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
 }
-
 .color-txt {
     color: red;
 }
-
 .main-header-list {
     list-style-type: none;
     font-family: Arial;
@@ -55,11 +47,10 @@ html {
     text-align: left;
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
 }
-
 .main-header-list-item {
     position: relative;
+    
 }
-
 .main-header-list-item:before {
     content: "";
     display: block;
@@ -69,14 +60,11 @@ html {
     position: absolute;
     top: 7px;
     left: -37px;
-
-    background-image: url(../images/images.png);
-    -webkit-background-size: contain;
+    background-image: url(../img/icon.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
-
 .main-header-product-photo {
     display: block;
     background-color: #ffffff;
@@ -84,7 +72,6 @@ html {
     height: 214px;
     float: right;
 }
-
 .product-description {
     width: 100%;
     min-height: 345px;
@@ -92,13 +79,10 @@ html {
     box-sizing: border-box;
     background-color: #fff;
 }
-
 .product-description-wrapper {
     float: left;
 }
-
 .product-description-title {
-    font-family: Arial;
     font-size: 30px;
     line-height: 36px;
     font-weight: 400;
@@ -108,9 +92,7 @@ html {
     min-height: 28px;
     width: 254px;
 }
-
 .product-description-main-1 {
-    font-family: Arial;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -119,9 +101,7 @@ html {
     width: 649px;
     margin: 0 0 24px 0;
 }
-
 .product-description-main-2 {
-    font-family: Arial;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -129,13 +109,11 @@ html {
     min-height: 63px;
     width: 653px;
 }
-
 .product-description-photo {
     float: right;
     display: block;
     background-color: #445161;
 }
-
 .pluses-product {
     background-color: #f5f5f5;
     padding: 50px;
@@ -143,16 +121,13 @@ html {
     /*min-height: 416px;*/
     box-sizing: border-box;
 }
-
 .pluses-product:after {
     content: "";
     display: block;
     width: 100%;
     clear: both;
 }
-
 .pluses-product-title {
-    font-family: Arial;
     font-size: 30px;
     /*line-height: 36px;*/
     font-weight: 400;
@@ -160,19 +135,14 @@ html {
     display: block;
     margin: 0 0 0 413px;
 }
-
 .pluses-product-left-items {
     float: left;
 
 }
-
 .pluses-product-right-items {
     float: right;
-
 }
-
 .pluses-product-left-items li {
-    font-family: Arial;
     font-size: 16px;
     /*line-height: 24px;*/
     font-weight: 400;
@@ -182,36 +152,29 @@ html {
     width: 526px;
     margin: 0 0 36px 0;
     position: relative;
-
 }
-
 .pluses-product-right-items li {
-    font-family: Arial;
     font-size: 16px;
     /*line-height: 24px;*/
     font-weight: 400;
     color: #333333;
     list-style-type: none;
     box-sizing: border-box;
-
     margin: 0 0 36px 0;
     width: 526px;
     min-height: 63px;
     position: relative;
-
 }
-
 .pluses-product-left-items li:before,
 .pluses-product-right-items li:before {
     content: "+";
     color: #fff;
-    font-size:30px;
+    font-size:42px;
     text-align: center;
-    
-  
     display: block;
     width: 32px;
     height: 32px;
+    line-height: 32px;
     border: 1px solid white;
     position: absolute;
     top: 7px;
@@ -222,26 +185,21 @@ html {
     background-color: #445161;
     top: 1px;
     left: -42px;
-
 }
-
 .screenshots {
     width: 100%;
     padding: 50px;
     box-sizing: border-box;
     min-height: 487px;
-
 }
-
 .screenshots:after {
     content: "";
     display: block;
     width: 100%;
     clear: both;
 }
-
 .screenshots-title {
-    font-family: Arial;
+    
     font-size: 30px;
     line-height: 36px;
     font-weight: 400;
@@ -250,7 +208,6 @@ html {
     text-align: center;
     margin: 0 auto 36px;
 }
-
 .screenshots-left-item {
     float: left;
     box-sizing: border-box;
@@ -260,82 +217,56 @@ html {
     font-weight: 400;
     color: #333333;
     width: 588px;
-
-
 }
-
 .screenshots-right-item {
     float: right;
     box-sizing: border-box;
-    font-family: Arial;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
     width: 588px;
-
 }
-
 .photo-description {
     margin: 0;
     min-height: 170px;
-
-
 }
-
 .photo {
     background-color: #445161;
     display: block;
     float: left;
-
-
-
 }
-
 .photo-description-main {
     /*height:108px;*/
-
     /*float:right;*/
     margin: 0;
     width: 370px;
-
 }
-
 .photo-description-text-title {
     display: block;
-
     /*height:23px;*/
-    font-family: Arial;
     font-size: 24px;
     line-height: 30px;
     font-weight: 400;
     color: #445161;
     /*float:right;*/
-
     margin: 0;
-
-
 }
 
 .description {
     float: right;
-
 }
-
 .photo-description:after {
     content: "";
     display: block;
     width: 100%;
     clear: both;
 }
-
 .screenshots-left-item:after {
     content: "";
     display: block;
     width: 100%;
     clear: both;
-
 }
-
 .reviews {
     width: 100%;
     padding: 50px;
@@ -343,10 +274,7 @@ html {
     box-sizing: border-box;
     min-height: 426px;
     background-color: #f5f5f5;
-
-
 }
-
 .reviews-title {
     text-align: center;
     display: block;
@@ -356,7 +284,6 @@ html {
     font-weight: 400;
     width: 100%;
 }
-
 .reviews-text {
     font-size: 14px;
     line-height: 18px;
@@ -373,22 +300,16 @@ html {
     box-sizing: border-box;
     padding: 15px;
     text-align: justify;
-
-
-
 }
-
 .reviews-text:before {
     content: "";
     display: block;
     border: 10px solid transparent;
     border-right: 10px solid #ebebeb;
     position: absolute;
-
     top: 18px;
     left: -19px;
 }
-
 .reviews-photo {
     width: 75px;
     height: 75px;
@@ -397,19 +318,13 @@ html {
     float: left;
     margin: 0 16px 0 0
 }
-
 .reviews-main {
     display: flex;
     flex-wrap: wrap;
 }
-
-
-
 .reviews-main-item {
     width: 50%;
-
 }
-
 .author {
     display: block;
     width: 100%;
@@ -419,11 +334,9 @@ html {
     color: #989898;
     margin: 5px 0 0 0;
 }
-
 .buy-now {
     padding: 50px 0 50px 0;
 }
-
 .offer {
     display: flex;
     flex-direction: row;
@@ -431,21 +344,15 @@ html {
     width: 100%;
     align-items: flex-end;
 }
-
 .buy-title {
     width: 100%;
     display: block;
 }
-
 .standart {
     margin: 0 23px 0 23px;
     border-radius: 5px;
     border: 3px solid #445162;
-
-
-
 }
-
 .buy-now-title {
     display: block;
     padding: 10px;
@@ -456,9 +363,7 @@ html {
     line-height: 30px;
     font-weight: 400;
     color: #ffffff;
-
 }
-
 .buy-now-price {
     font-size: 40px;
     line-height: 30px;
@@ -467,9 +372,7 @@ html {
     text-align: center;
     display: block;
     padding: 10px;
-
 }
-
 .buy-now-list {
     list-style-position: inside;
     margin: 0;
@@ -480,15 +383,11 @@ html {
     font-weight: 400;
     padding: 20px 30px 0px 20px;
     box-sizing: border-box;
-
 }
-
 .btn-link-container {
-
     background-color: #445162;
     padding: 10px;
 }
-
 .btn-link {
     /*width:260px;*/
     display: block;
@@ -505,51 +404,35 @@ html {
     font-weight: 700;
     color: #445161;
     text-transform: uppercase;
-
 }
-
-
-
 .btn-link:hover {
     background-color: #445161;
     color: #ffffff;
 }
 
-.clr {
-    height: 537px;
-}
-
 .footer {
     height: 537px;
-    margin: -537px auto;
+    margin: 0 auto;
     background-color: #445162;
     width: 1280px;
 }
-
 .contacts-form {
     display: flex;
     flex-wrap: wrap;
     width: 500px;
     justify-content: center;
     margin: 0 46px 0 0;
-
 }
-
 .contacts-title {
     display: block;
     width: 100%;
     text-align: center;
     margin: 0 0 30px 0;
-
-
-
     color: #ffffff;
     font-size: 30px;
     font-weight: 400;
     line-height: 36px;
-
 }
-
 .contacts {
     display: flex;
     flex-wrap: wrap;
@@ -558,13 +441,9 @@ html {
     padding: 50px;
     box-sizing: border-box;
 }
-
-
 .net_contacts {
     width: 240px;
-
 }
-
 .contacts-form input[type="text"],
 .contacts-form input[type="email"],
 .contacts-form textarea {
@@ -577,12 +456,9 @@ html {
     border: 1px solid gray;
     outline: none;
     height: 40px;
-
-
 }
-
-input[placeholder],
-textarea[placeholder] {
+.contacts-form input[placeholder],
+.contacts-form textarea[placeholder] {
     text-overflow: ellipsis;
     font-family: Arial;
     color: #445162;
@@ -591,14 +467,12 @@ textarea[placeholder] {
     line-height: 24px;
     text-align: left;
 }
-
 .contacts-form input[type="submit"] {
     border-radius: 5px;
     background-color: #ffffff;
     width: 140px;
     height: 40px;
     text-transform: uppercase;
-
     color: #445162;
     font-size: 16px;
     font-weight: 700;
@@ -606,13 +480,10 @@ textarea[placeholder] {
     text-align: center;
     outline: none;
 }
-
 .net-contacts {
     width: 240px;
     height: 300px;
-
 }
-
 .contacts-form textarea {
     width: 500px;
     height: 170px;
@@ -622,7 +493,6 @@ textarea[placeholder] {
     outline: none;
     resize: none;
 }
-
 .contacts-form input[type="submit"]:hover {
     background-color: gray;
     color: white;
@@ -630,12 +500,8 @@ textarea[placeholder] {
 
 .net-contacts {
     display: block;
-
-
 }
-
 .net-contacts-link {
-
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -645,10 +511,7 @@ textarea[placeholder] {
     padding-left: 30px;
     position: relative;
     margin: 0 0 15px 0;
-
-
 }
-
 .net-contacts-link:before {
     content: "";
     display: block;
@@ -662,23 +525,20 @@ textarea[placeholder] {
     position: absolute;
     top: 1px;
     left: 0;
-
 }
-
 .net-contacts-link:nth-of-type(1):before {
-    background-image: url(../images/skype_icon_319.png);
-
+    background-image: url(../img/skype_icon_319.png);
 }
 .net-contacts-link:nth-of-type(2):before {
-    background-image: url(../images/icq_icon_324.png);
+    background-image: url(../img/icq_icon_324.png);
+    
 }
 .net-contacts-link:nth-of-type(3):before {
-    background-image: url(../images/email_icon_332.png);
+    background-image: url(../img/email_icon_332.png);
 }
 .net-contacts-link:nth-of-type(4):before {
-    background-image: url(../images/phone_icon_337.png);
+    background-image: url(../img/phone_icon_337.png);
 }
-
 .contacts-icon {
     display: flex;
     justify-content: space-between;
@@ -686,24 +546,36 @@ textarea[placeholder] {
     margin-top: 34px;
     height: 42px;
     /*background-image: url(../images/social_buttons_338.png);*/
-
 }
-
-
-
 .main-footer-contacts-net {
     display: block;
     border-radius: 100%;
     width: 42px;
     height: 42px;
     box-sizing: border-box;
-    border: 1px solid transparent;
-    ;
-    background-color: #fff;
+    /*border: 1px solid transparent;*/
+    background-color: #445161;
 }
-
+.main-footer-contacts-net:nth-child(1) {
+    background-image: url("../img/social_buttons_338.png");
+}
+.main-footer-contacts-net:nth-child(2) {
+    background-image: url("../img/social_buttons_338.png");
+    background-position: -50px 0; 
+}
+.main-footer-contacts-net:nth-child(3) {
+    background-image: url("../img/social_buttons_338.png");
+    background-position: -99px 0; 
+}
+.main-footer-contacts-net:nth-child(4) {
+    background-image: url("../img/social_buttons_338.png");
+    background-position: -150px 0; 
+}
+.main-footer-contacts-net:nth-child(5) {
+    background-image: url("../img/social_buttons_338.png");
+    background-position: -198px 0; 
+}
 .footer-text {
-  
     text-align: center;
     font-size: 12px;
     line-height: 24px;
@@ -712,7 +584,6 @@ textarea[placeholder] {
     color: #445162;
     background-color: #fff;
     margin: 0;
-
 }
 .link-footer {
     text-decoration: none;
